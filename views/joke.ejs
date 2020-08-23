@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+
+    <style>
+        * {
+            padding: none;
+            margin: none;
+            box-sizing: border-box;
+            font-family: "Raleway", sans-serif;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224));
+            color: white;
+
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+        }
+
+        span {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Joke Generator</h1>
+
+    <p><span>Setup:</span> <%= setup %></p>
+    <p><span>Punchline:</span> <%= punchline %></p>
+</body>
+
+</html>
